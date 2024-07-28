@@ -9,16 +9,46 @@ public class QuickSort implements ISort {
 
     @Override
     public void sort(int[] arr) {
-        quickSortArr(arr, 0, arr.length - 1);
+        quickSortDuplicateArr(arr, 0, arr.length - 1);
     }
 
     private void quickSortArr(int[] arr, int startIndex, int endIndex) {
         if (startIndex >= endIndex) return;
         int index = random.nextInt(startIndex, endIndex + 1);
-        swap(arr, index, endIndex);
+        swap(arr, startIndex, index);
         int spiltIndex = partition(arr, startIndex, endIndex);
         quickSortArr(arr, 0, spiltIndex - 1);
         quickSortArr(arr, spiltIndex + 1, endIndex);
+    }
+
+    private void quickSortDuplicateArr(int[] arr, int startIndex, int endIndex) {
+        if (startIndex >= endIndex) return;
+        int index = random.nextInt(startIndex, endIndex + 1);
+        swap(arr, startIndex, index);
+        // 以最后一个元素为锚点anchor=arr[endIndex]
+        // 将[startIndex, endIndex]分为小于arr[endIndex]和大于arr[endIndex]的部分
+        // 用指针lastSmallerAnchorIndex记录最后一个小于anchor的位置，初始位置为startIndex-1
+        // 用指针firstBiggerAnchorIndex记录第一个大于anchor的位置，初始位置为endIndex+1
+        // 然后用i遍历[startIndex, firstBiggerAnchorIndex)
+        // 如果碰到arr[i]>anchor, 交换arr[i]和arr[--firstBiggerAnchorIndex]
+        // 如果碰到arr[i]<anchor, 交换arr[i++]和arr[++lastSmallerAnchorIndex],注意这里i也要变大，因为i的左边为所有<anchor的元素
+        // 否则i++
+        // 直到i=lastSmallerAnchorIndex
+        int anchor = arr[endIndex];
+        int lastSmallerAnchorIndex = startIndex - 1;
+        int firstBiggerAnchorIndex = endIndex + 1;
+        int i = startIndex;
+        while (i < firstBiggerAnchorIndex) {
+            if (arr[i] < anchor) {
+                swap(arr, i++, ++lastSmallerAnchorIndex);
+            } else if (arr[i] > anchor) {
+                swap(arr, i, --firstBiggerAnchorIndex);
+            } else {
+                i++;
+            }
+        }
+        quickSortDuplicateArr(arr, 0, lastSmallerAnchorIndex);
+        quickSortDuplicateArr(arr, firstBiggerAnchorIndex, endIndex);
     }
 
     private int partition(int[] arr, int startIndex, int endIndex) {
@@ -59,8 +89,7 @@ public class QuickSort implements ISort {
                 swap(arr, ++i, j);
             }
         }
-        i++;
-        swap(arr, i, endIndex);
+        swap(arr, ++i, endIndex);
         return i;
     }
 
