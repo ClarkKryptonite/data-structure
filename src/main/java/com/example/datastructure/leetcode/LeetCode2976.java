@@ -16,6 +16,8 @@ public class LeetCode2976 {
         this.changed = changed;
         this.cost = cost;
 
+        recordCharString(source);
+        recordCharString(target);
         recordCharMap(original);
         recordCharMap(changed);
 
@@ -66,7 +68,7 @@ public class LeetCode2976 {
             int value = matrix[originalIndex][changedIndex] + matrix[changedIndex][i];
             if (value < matrix[originalIndex][i]) {
                 matrix[originalIndex][i] = value;
-                findMatrixRoute(matrix, originalIndex, i);
+                findMatrixRoute(matrix, changedIndex, i);
             }
         }
     }
@@ -74,7 +76,11 @@ public class LeetCode2976 {
     private void initMatrixValue(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix.length; j++) {
-                matrix[i][j] = Integer.MAX_VALUE;
+                if (i == j) {
+                    matrix[i][j] = 0;
+                } else {
+                    matrix[i][j] = Integer.MAX_VALUE;
+                }
             }
         }
     }
@@ -82,6 +88,16 @@ public class LeetCode2976 {
     private void recordCharMap(char[] charArr) {
         int startIndex = matrixMap.size();
         for (char c : charArr) {
+            if (matrixMap.get(c) == null) {
+                matrixMap.put(c, startIndex++);
+            }
+        }
+    }
+
+    private void recordCharString(String value) {
+        int startIndex = matrixMap.size();
+        for (int i = 0; i < value.length(); i++) {
+            char c = value.charAt(i);
             if (matrixMap.get(c) == null) {
                 matrixMap.put(c, startIndex++);
             }

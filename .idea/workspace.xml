@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ba54ee2-faf2-4e7c-beff-93188ad7d846" name="Changes" comment="Modify(Sort): optimize QuickSort algorithm">
+    <list default="true" id="6ba54ee2-faf2-4e7c-beff-93188ad7d846" name="Changes" comment="Chore(Sort): move SortTest.java location">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/datastructure/leetcode/LeetCode2976Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/algorithm/sort/assist/SortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/algorithm/sort/assist/SortExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/datastructure/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/datastructure/sort/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode2976.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode2976.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +44,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -81,6 +82,7 @@
     "Application.Main.executor": "Run",
     "Application.com.example.datastructure.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.LeetCode2976Test.minimumCost.executor": "Run",
     "Gradle.MeasureUtilsTest.measureExecutionTime.executor": "Run",
     "Gradle.NumberUtilsTest.generateRandomNumbers.executor": "Run",
     "Gradle.NumberUtilsTest.testOrderNumbers.executor": "Run",
@@ -109,7 +111,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "leetcode.id",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -121,10 +123,35 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.datastructure.leetcode" />
       <recent name="com.example.datastructure.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SortTest">
+  <component name="RunManager" selected="Gradle.LeetCode2976Test.minimumCost">
+    <configuration name="LeetCode2976Test.minimumCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.datastructure.leetcode.LeetCode2976Test.minimumCost&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -221,37 +248,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StringUtilsTest.generateRandomString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.example.datastructure.util.StringUtilsTest.generateRandomString&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LeetCode2976Test.minimumCost" />
         <item itemvalue="Gradle.SortTest" />
         <item itemvalue="Gradle.SortTest.quickSort" />
         <item itemvalue="Gradle.SortTest.insertSort" />
         <item itemvalue="Gradle.Sort.quickSort" />
-        <item itemvalue="Gradle.StringUtilsTest.generateRandomString" />
       </list>
     </recent_temporary>
   </component>
@@ -309,17 +312,54 @@
       <option name="project" value="LOCAL" />
       <updated>1722186466386</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Solution(2976): add solution code">
+      <option name="closed" value="true" />
+      <created>1722216575708</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722216575708</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Solution(2976): add solution code">
+      <option name="closed" value="true" />
+      <created>1722216936204</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722216936204</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Chore(Sort): move SortTest.java location">
+      <option name="closed" value="true" />
+      <created>1722228521046</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722228521047</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init: data-structure train project" />
     <MESSAGE value="Modify(project): change build system from IntelliJ to Gradle" />
     <MESSAGE value="Feat(Sort): add InsertSort and QuickSort with TestUnit" />
     <MESSAGE value="Modify(Sort): optimize QuickSort algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify(Sort): optimize QuickSort algorithm" />
+    <MESSAGE value="Solution(2976): add solution code" />
+    <MESSAGE value="Chore(Sort): move SortTest.java location" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chore(Sort): move SortTest.java location" />
   </component>
 </project>
