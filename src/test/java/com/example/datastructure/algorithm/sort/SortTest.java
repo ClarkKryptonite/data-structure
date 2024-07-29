@@ -1,7 +1,5 @@
-package com.example.datastructure.sort;
+package com.example.datastructure.algorithm.sort;
 
-import com.example.datastructure.algorithm.sort.InsertSort;
-import com.example.datastructure.algorithm.sort.QuickSort;
 import com.example.datastructure.algorithm.sort.assist.ISort;
 import com.example.datastructure.algorithm.sort.assist.SortExample;
 import org.junit.jupiter.api.Assertions;
