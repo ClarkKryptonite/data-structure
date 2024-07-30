@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ba54ee2-faf2-4e7c-beff-93188ad7d846" name="Changes" comment="Chore(Sort): move SortTest.java location">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/datastructure/leetcode/LeetCode2976Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode2976.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode2976.java" afterDir="false" />
@@ -111,7 +111,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "leetcode.id",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

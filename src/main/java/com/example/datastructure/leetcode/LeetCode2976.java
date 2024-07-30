@@ -22,7 +22,7 @@ public class LeetCode2976 {
         recordCharMap(changed);
 
         int mapSize = matrixMap.size();
-        int[][] costMatrix = new int[mapSize][mapSize];
+        long[][] costMatrix = new long[mapSize][mapSize];
         initMatrixValue(costMatrix);
         fillMatrixValue(costMatrix);
 
@@ -41,14 +41,15 @@ public class LeetCode2976 {
         return result;
     }
 
-    private void fillMatrixValue(int[][] martix) {
+    private void fillMatrixValue(long[][] matrix) {
         // 先把original->changed的cost初始化
         for (int i = 0; i < original.length; i++) {
             char originalChar = original[i];
             int originalMatrixIndex = matrixMap.get(originalChar);
             char changedChar = changed[i];
             int changedMatrixIndex = matrixMap.get(changedChar);
-            martix[originalMatrixIndex][changedMatrixIndex] = cost[i];
+            // 这个题最尼玛恶心的地方在这里，它给映射尼玛有重复的卧槽尼玛
+            matrix[originalMatrixIndex][changedMatrixIndex] = Math.min(cost[i], matrix[originalMatrixIndex][changedMatrixIndex]);
         }
         // 再查找可行路径
         for (int i = 0; i < original.length; i++) {
@@ -56,24 +57,24 @@ public class LeetCode2976 {
             int originalMatrixIndex = matrixMap.get(originalChar);
             char changedChar = changed[i];
             int changedMatrixIndex = matrixMap.get(changedChar);
-            findMatrixRoute(martix, originalMatrixIndex, changedMatrixIndex);
+            findMatrixRoute(matrix, originalMatrixIndex, changedMatrixIndex);
         }
     }
 
-    private void findMatrixRoute(int[][] matrix, int originalIndex, int changedIndex) {
+    private void findMatrixRoute(long[][] matrix, int originalIndex, int changedIndex) {
         for (int i = 0; i < matrix.length; i++) {
             if (matrix[changedIndex][i] == Integer.MAX_VALUE || matrix[changedIndex][i] == 0) {
                 continue;
             }
-            int value = matrix[originalIndex][changedIndex] + matrix[changedIndex][i];
+            long value = matrix[originalIndex][changedIndex] + matrix[changedIndex][i];
             if (value < matrix[originalIndex][i]) {
                 matrix[originalIndex][i] = value;
-                findMatrixRoute(matrix, changedIndex, i);
+                findMatrixRoute(matrix, originalIndex, i);
             }
         }
     }
 
-    private void initMatrixValue(int[][] matrix) {
+    private void initMatrixValue(long[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix.length; j++) {
                 if (i == j) {
