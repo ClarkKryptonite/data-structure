@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ba54ee2-faf2-4e7c-beff-93188ad7d846" name="Changes" comment="Chore(Sort): move SortTest.java location">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode2976.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode2976.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +44,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,44 +77,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.com.example.datastructure.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.LeetCode2976Test.minimumCost.executor": "Run",
-    "Gradle.MeasureUtilsTest.measureExecutionTime.executor": "Run",
-    "Gradle.NumberUtilsTest.generateRandomNumbers.executor": "Run",
-    "Gradle.NumberUtilsTest.testOrderNumbers.executor": "Run",
-    "Gradle.Sort.quickSort.executor": "Run",
-    "Gradle.SortTest.executor": "Run",
-    "Gradle.SortTest.insertSort.executor": "Run",
-    "Gradle.SortTest.quickSort.executor": "Run",
-    "Gradle.StringUtilsTest.generateRandomString.executor": "Run",
-    "Gradle.data-structure [:Main.main()].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kun/Code_Program/leetcode/data-structure",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.example.datastructure.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.LeetCode2976Test.minimumCost.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MeasureUtilsTest.measureExecutionTime.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NumberUtilsTest.generateRandomNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NumberUtilsTest.testOrderNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Sort.quickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortTest.insertSort.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SortTest.quickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringUtilsTest.generateRandomString.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.data-structure [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kun/Code_Program/leetcode/data-structure&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -287,6 +287,8 @@
       <workItem from="1721955177334" duration="10186000" />
       <workItem from="1722100739288" duration="2775000" />
       <workItem from="1722181732085" duration="4691000" />
+      <workItem from="1722473829981" duration="7679000" />
+      <workItem from="1722495565296" duration="642000" />
     </task>
     <task id="LOCAL-00001" summary="Init: data-structure train project">
       <option name="closed" value="true" />
