@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ba54ee2-faf2-4e7c-beff-93188ad7d846" name="Changes" comment="Chore(Sort): move SortTest.java location">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+    <list default="true" id="6ba54ee2-faf2-4e7c-beff-93188ad7d846" name="Changes" comment="Solution(4): add solution code(unsolve)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +286,8 @@
       <workItem from="1722100739288" duration="2775000" />
       <workItem from="1722181732085" duration="4691000" />
       <workItem from="1722473829981" duration="7679000" />
-      <workItem from="1722495565296" duration="642000" />
+      <workItem from="1722495565296" duration="689000" />
+      <workItem from="1722560953335" duration="3127000" />
     </task>
     <task id="LOCAL-00001" summary="Init: data-structure train project">
       <option name="closed" value="true" />
@@ -338,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722228521047</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Solution(4): add solution code(unsolve)">
+      <option name="closed" value="true" />
+      <created>1722517005455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722517005455</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +369,7 @@
     <MESSAGE value="Modify(Sort): optimize QuickSort algorithm" />
     <MESSAGE value="Solution(2976): add solution code" />
     <MESSAGE value="Chore(Sort): move SortTest.java location" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chore(Sort): move SortTest.java location" />
+    <MESSAGE value="Solution(4): add solution code(unsolve)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution(4): add solution code(unsolve)" />
   </component>
 </project>
