@@ -3,6 +3,17 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/en/[1460]Make Two Arrays Equal by Reversing Subarrays.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/en/doc/content/[1460]Make Two Arrays Equal by Reversing Subarrays.md" />
+              <option name="frontendQuestionId" value="leetcode.com1460" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/en/[1460]Make Two Arrays Equal by Reversing Subarrays.java" />
+              <option name="titleSlug" value="make-two-arrays-equal-by-reversing-subarrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../leetcode/editor/en/[2976]Minimum Cost to Convert String I.java">
           <value>
             <LeetcodeEditor>
@@ -21,6 +32,17 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/../leetcode/editor/en/[4]Median of Two Sorted Arrays.java" />
               <option name="titleSlug" value="median-of-two-sorted-arrays" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../leetcode/editor/en/[703]Kth Largest Element in a Stream.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../leetcode/editor/en/doc/content/[703]Kth Largest Element in a Stream.md" />
+              <option name="frontendQuestionId" value="leetcode.com703" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/../leetcode/editor/en/[703]Kth Largest Element in a Stream.java" />
+              <option name="titleSlug" value="kth-largest-element-in-a-stream" />
             </LeetcodeEditor>
           </value>
         </entry>

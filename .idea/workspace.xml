@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ba54ee2-faf2-4e7c-beff-93188ad7d846" name="Changes" comment="Solution(4): add solution code(unsolve)">
+    <list default="true" id="6ba54ee2-faf2-4e7c-beff-93188ad7d846" name="Changes" comment="Solution(4): add solution code">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/datastructure/leetcode/LeetCode4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -248,19 +249,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LeetCode2976Test.minimumCost" />
-        <item itemvalue="Gradle.SortTest" />
+        <item itemvalue="Gradle.Sort.quickSort" />
         <item itemvalue="Gradle.SortTest.quickSort" />
         <item itemvalue="Gradle.SortTest.insertSort" />
-        <item itemvalue="Gradle.Sort.quickSort" />
+        <item itemvalue="Gradle.SortTest" />
+        <item itemvalue="Gradle.LeetCode2976Test.minimumCost" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
       </set>
     </attachedChunks>
   </component>
@@ -287,7 +288,23 @@
       <workItem from="1722181732085" duration="4691000" />
       <workItem from="1722473829981" duration="7679000" />
       <workItem from="1722495565296" duration="689000" />
-      <workItem from="1722560953335" duration="3127000" />
+      <workItem from="1722560953335" duration="3274000" />
+      <workItem from="1722646332584" duration="2238000" />
+      <workItem from="1722819397182" duration="471000" />
+      <workItem from="1722905627519" duration="616000" />
+      <workItem from="1722991985945" duration="596000" />
+      <workItem from="1723085885464" duration="1105000" />
+      <workItem from="1723093221126" duration="142000" />
+      <workItem from="1723251412280" duration="92000" />
+      <workItem from="1723424220180" duration="354000" />
+      <workItem from="1723425236754" duration="7475000" />
+      <workItem from="1723511317927" duration="155000" />
+      <workItem from="1723511509573" duration="4814000" />
+      <workItem from="1723597113117" duration="114000" />
+      <workItem from="1723683318073" duration="581000" />
+      <workItem from="1723769591341" duration="540000" />
+      <workItem from="1723856159774" duration="371000" />
+      <workItem from="1724029046755" duration="8642000" />
     </task>
     <task id="LOCAL-00001" summary="Init: data-structure train project">
       <option name="closed" value="true" />
@@ -345,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722517005455</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Solution(4): add solution code">
+      <option name="closed" value="true" />
+      <created>1722564388614</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722564388614</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +395,7 @@
     <MESSAGE value="Solution(2976): add solution code" />
     <MESSAGE value="Chore(Sort): move SortTest.java location" />
     <MESSAGE value="Solution(4): add solution code(unsolve)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution(4): add solution code(unsolve)" />
+    <MESSAGE value="Solution(4): add solution code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution(4): add solution code" />
   </component>
 </project>
